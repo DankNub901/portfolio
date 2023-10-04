@@ -1,0 +1,442 @@
+/* style.css */
+
+/* Apply styles to the "About Me" section */
+.about-section {
+    margin-top: 20px;
+}
+
+.about-section h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Apply styles to the "Contact Me" section */
+.contact-section {
+    margin-top: 20px;
+}
+
+.contact-section h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Styles for the contact form */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Apply styles to the call-to-action (CTA) section */
+.cta-section {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.cta-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+
+/* Apply styles to the call-to-action (CTA) section */
+.cta-section {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.cta-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+
+/* Apply styles to the "Products" section */
+.products-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.products-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles for individual products */
+.product {
+    margin-bottom: 30px;
+}
+
+/* Reduce the size of individual product images */
+.product img {
+    max-width: 30%; /* Adjust the maximum width as needed */
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 24px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777;
+}
+
+
+
+/* Apply styles to the "Services" section */
+.services-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.services-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles for individual services */
+.service {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.service h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* style.css */
+
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply styles to the call-to-action (CTA) section */
+.cta-section {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.cta-section h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+
+
+/* header-style.css */
+
+/* Style the header */
+header {
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 10px 0; /* Add padding to the top and bottom of the header */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center-align the menu items */
+}
+
+nav ul li {
+    display: inline; /* Display menu items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove right margin from the last menu item */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Make links bold */
+    font-size: 16px; /* Font size for links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ff6600; /* Change link color on hover */
+}
+
+
+/* footer-style.css */
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Style the footer content */
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-logo h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff6600;
+}
+
+.footer-social h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-social .social-icon {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-info {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* style.css */
+
+/* Style the circular image */
+.circular-image {
+    width: 150px; /* Adjust the width and height as needed */
+    height: 150px;
+    border-radius: 50%; /* Create a circular shape */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Remove any default inline spacing */
+}
+
+
+/* Add this CSS to style the content container and make the corners smooth */
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 10px; /* Add border-radius for smooth corners */
+}
+
+.content h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Additional styling for the content container if needed */
+
+
+/* Style the company name */
+.company-name {
+    font-size: 20px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make it bold if desired */
+    color: #dddddd; /* Text color for the company name */
+    margin-left: 20px; /* Add left margin for spacing */
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="/css/style.css"> <!-- Link your custom CSS file -->
+    <title>Products</title>
+</head>
+<body>
+    <%- include ('partials/header') %>
+    <main>
+        <section class="products-section">
+            <h1>Our Projects</h1>
+            <div class="product">
+                <img src="/img/product1.png" alt="Product 1">
+                <h2>Project 1</h2>
+                <p>A Scientific Calculator project using Windows Forms App based on C#.</p>
+            </div>
+            <div class="product">
+                <img src="/img/product2.png" alt="Product 2">
+                <h2>Project 2</h2>
+                <p>Created a DataBase for an eCommerce website based on Oracle DBMS.</p>
+            </div>
+            <div class="product">
+                <img src="/img/kittyKayden.jpg" alt="Product 3">
+                <h2>Project 3</h2>
+                <p>Recently completed the Requirements Gathering phase for Park Genie (a parking lot application).</p>
+            </div>
+        </section>
+    </main>
+    <%- include ('partials/footer') %>
+</body>
+</html>
